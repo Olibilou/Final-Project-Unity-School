@@ -14,6 +14,8 @@ public class UiGame : MonoBehaviour
     [SerializeField]
     private Text keyscore;
 
+    private bool test = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,15 @@ public class UiGame : MonoBehaviour
     public void UpdateScore(int keycollect)
     {
         keyscore.text = keycollect + "/" + keytotal + " keys";
+        if(keycollect == keytotal)
+        {
+            test = true;
+        }
     }
+    public bool endLevel()
+    {
+        return test;
+    }
+
     
 }
