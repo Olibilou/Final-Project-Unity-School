@@ -53,11 +53,14 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\NextLevel.cs" />
     <Compile Include="Assets\Script\PlayerMovement.cs" />
     <Compile Include="Assets\Script\UiGame.cs" />
     <Compile Include="Assets\Script\CollectKeys.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
-    <Compile Include="Assets\Script\NextLevel.cs" />
+    <Compile Include="Assets\Script\ResestLevel.cs" />
+    <Compile Include="Assets\Script\SkipLevel.cs" />
+    <Compile Include="Assets\Script\AllowSkipLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

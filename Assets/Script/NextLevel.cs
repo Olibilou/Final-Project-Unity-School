@@ -29,7 +29,7 @@ public class NextLevel : MonoBehaviour
             Debug.Log("collision");
             if(test == true)
             {
-                SceneManager.LoadScene("Scene2");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
