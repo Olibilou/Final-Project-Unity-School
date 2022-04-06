@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class UiGame : MonoBehaviour
 {
-    // total key in level
+    // total key in level NEED TO BE CHANGE FOR EACH SCENE SO THAT THE GAME KNOW HOW MUCH KEY THE PLAYER NEED TO COLLECT
     [SerializeField]
     private int keytotal;
 

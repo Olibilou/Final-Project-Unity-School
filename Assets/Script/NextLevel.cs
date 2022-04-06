@@ -25,6 +25,7 @@ public class NextLevel : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            //test is a bool that tell if the player have all the key to enter the next level
             test = uiGame.endLevel();
             Debug.Log("collision");
             if(test == true)

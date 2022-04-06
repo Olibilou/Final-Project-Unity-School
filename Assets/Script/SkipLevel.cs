@@ -17,6 +17,7 @@ public class SkipLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // look if the player have still skip level and if yes go to the next level
         if (Input.GetKeyDown(KeyCode.M))
         {
             infoskip = GetuseSkip();
