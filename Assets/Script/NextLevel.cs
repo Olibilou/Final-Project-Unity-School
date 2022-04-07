@@ -30,8 +30,21 @@ public class NextLevel : MonoBehaviour
             Debug.Log("collision");
             if(test == true)
             {
+                SetCurrentLevel();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
+
+    public void SetCurrentLevel()
+    {
+        CurrentLevel.CurrentLevels = SceneManager.GetActiveScene().buildIndex + 1;
+    }
+
+    public int GetCurrentLevel()
+    {
+        int number = CurrentLevel.CurrentLevels;
+        return number;
+    }
+
 }

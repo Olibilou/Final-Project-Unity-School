@@ -15,4 +15,18 @@ public class Mainmenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void returnMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void restartlastlevel()
+    {
+        SceneManager.LoadScene(CurrentLevel.CurrentLevels);
+    }
+
 }
