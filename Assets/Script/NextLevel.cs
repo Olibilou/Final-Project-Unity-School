@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour
 {
 
-    private bool test;
+    private bool levelComplete;
 
     private UiGame uiGame;
 
@@ -26,10 +26,12 @@ public class NextLevel : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             //test is a bool that tell if the player have all the key to enter the next level
-            test = uiGame.endLevel();
+            levelComplete = uiGame.endLevel();
             Debug.Log("collision");
-            if(test == true)
+            if(levelComplete == true)
             {
+                CurrentLevel.arr[SceneManager.GetActiveScene().buildIndex] = true;
+                Debug.Log(CurrentLevel.arr[SceneManager.GetActiveScene().buildIndex]);
                 SetCurrentLevel();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }

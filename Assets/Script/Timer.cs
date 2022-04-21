@@ -29,6 +29,7 @@ public class Timer : MonoBehaviour
     public void timelevel()
     {
         CurrentLevel.timer += Time.deltaTime;
+        
     }
     public float returntime()
     {
