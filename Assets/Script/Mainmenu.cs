@@ -18,6 +18,7 @@ public class Mainmenu : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(1);
+        AllowSkipLevel.skipLevel = 3;
     }
 
     public void returnMainMenu()

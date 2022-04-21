@@ -16,7 +16,6 @@ public class UiGame : MonoBehaviour
 
     private bool test = false;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +26,10 @@ public class UiGame : MonoBehaviour
     void Update()
     {
         
+        
     }
+
+
 
     public void UpdateScore(int keycollect)
     {

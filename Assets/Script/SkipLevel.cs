@@ -7,7 +7,6 @@ public class SkipLevel : MonoBehaviour
 {
     int infoskip;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +16,7 @@ public class SkipLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         // look if the player have still skip level and if yes go to the next level
         if (Input.GetKeyDown(KeyCode.M))
         {
@@ -25,7 +25,7 @@ public class SkipLevel : MonoBehaviour
             if (infoskip > 0)
             {
                 useSkip();
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
     }
