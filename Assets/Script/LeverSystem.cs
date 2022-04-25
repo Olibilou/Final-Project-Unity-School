@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class LeverSystem : MonoBehaviour
 {
-    [SerializeField]
-    GameObject wall;
 
-    bool canpress = false;
+    GameObject lever;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        lever = GetComponent<GameObject>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && canpress == true)
-        {
-            Instantiate(wall, transform.position += new Vector3(5, 0, 0), transform.rotation);
-            Debug.Log("Press E");
-        }
+        
 
 
     }
@@ -31,10 +25,28 @@ public class LeverSystem : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            canpress = true;
-            Debug.Log("collision");
+            if(CurrentLevel.contactLever == false)
+            {
+                CurrentLevel.contactLever = true;
+            }
+            else 
+            { 
+                CurrentLevel.contactLever = false;
+            }
 
+            Debug.Log(CurrentLevel.contactLever);
         }
         
     }
+
+    /*private void OnTriggerExit2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            CurrentLevel.contactLever = false;
+            Debug.Log(CurrentLevel.contactLever);
+
+        }
+    }*/
 }
