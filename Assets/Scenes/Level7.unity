@@ -440,6 +440,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7482660124525668579, guid: 2b540a6be225b104d85be5e752be4232, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 983924647}
     - target: {fileID: 7482660124525668607, guid: 2b540a6be225b104d85be5e752be4232, type: 3}
       propertyPath: m_Name
       value: Player
@@ -882,8 +886,8 @@ GameObject:
   m_Component:
   - component: {fileID: 344048831}
   - component: {fileID: 344048830}
-  - component: {fileID: 344048829}
   - component: {fileID: 344048832}
+  - component: {fileID: 344048829}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -900,7 +904,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 344048828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5368125bd2afef43b72dab89f927e01, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b871f8fd8ce0ed4cb82c4fb0558684a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1323750129}

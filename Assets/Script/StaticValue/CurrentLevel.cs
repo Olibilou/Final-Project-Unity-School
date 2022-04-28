@@ -10,7 +10,7 @@ public class CurrentLevel : MonoBehaviour
 
 
     //value = number of level in the game minus one
-    public static bool[] arr = new bool[5];
+    public static bool[] arr = new bool[50];
 
     public static bool contactLever = false;
     public static bool contactLever2 = false;
