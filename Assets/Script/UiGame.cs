@@ -9,6 +9,8 @@ public class UiGame : MonoBehaviour
     // total key in level NEED TO BE CHANGE FOR EACH SCENE SO THAT THE GAME KNOW HOW MUCH KEY THE PLAYER NEED TO COLLECT
     [SerializeField]
     private int keytotal;
+    //[SerializeField] private DoorActivation door;
+    
 
     //the text element
     [SerializeField]
@@ -37,6 +39,21 @@ public class UiGame : MonoBehaviour
         if(keycollect == keytotal)
         {
             test = true;
+           
+        }
+    }
+    public void OpenDoor(int keycollect)
+    {
+        GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag("Door");
+     
+        if (keycollect == keytotal)
+        {
+            foreach(GameObject go in gameObjectArray) 
+            {
+                go.SetActive(false);
+            }
+            
+
         }
     }
     public bool endLevel()

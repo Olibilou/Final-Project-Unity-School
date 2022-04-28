@@ -23,5 +23,11 @@ public class CollectKeys : MonoBehaviour
             keycollect++;
             uiGame.UpdateScore(keycollect);
         }
+        if (collision.gameObject.CompareTag("Door"))
+        {
+            collision.gameObject.SetActive(false);
+ 
+        }
     }
+
 }

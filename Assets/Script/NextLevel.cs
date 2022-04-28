@@ -7,6 +7,7 @@ public class NextLevel : MonoBehaviour
 {
 
     private bool levelComplete;
+    
 
     private UiGame uiGame;
 
