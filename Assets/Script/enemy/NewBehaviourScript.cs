@@ -8,10 +8,17 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField]
     private Transform target;
 
-    public float min = 2f;
-    public float max = 3f;
+
+    private float min;
+    private float max;
+
+    [SerializeField]
+    private float distance;
 
     bool detect = false;
+
+    [SerializeField]
+    private float speed;
 
 
 
@@ -20,7 +27,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
 
         min = transform.position.x;
-        max = transform.position.x + 3;
+        max = transform.position.x + distance;
 
     }
 
@@ -32,7 +39,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         if(detect == false)
         {
-            transform.position = new Vector3(Mathf.PingPong(Time.time * 2, max - min) + min, transform.position.y, transform.position.z);
+            transform.position = new Vector3(Mathf.PingPong(Time.time * speed, max - min) + min, transform.position.y, transform.position.z);
         }
         if(detect == true)
         {
