@@ -36,14 +36,4 @@ public class LeverSystem : MonoBehaviour
         
     }
 
-    /*private void OnTriggerExit2D(Collider2D collision)
-    {
-
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            CurrentLevel.contactLever = false;
-            Debug.Log(CurrentLevel.contactLever);
-
-        }
-    }*/
 }
