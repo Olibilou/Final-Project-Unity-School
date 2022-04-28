@@ -108,6 +108,8 @@
     <Compile Include="Assets\Script\Menu\ShowCompleteTime.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Script\Gameplay\DeadDetection.cs" />
+    <Compile Include="Assets\Script\Gameplay\Shooting.cs" />
+    <Compile Include="Assets\Script\Gameplay\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
