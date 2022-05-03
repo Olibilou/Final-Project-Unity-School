@@ -34,6 +34,7 @@ public class SkipLevel : MonoBehaviour
     {
         AllowSkipLevel.skipLevel -= 1;
         CurrentLevel.timer += 50;
+        CurrentLevel.CurrentLevels = SceneManager.GetActiveScene().buildIndex + 1;
     }
     public int GetuseSkip()
     {

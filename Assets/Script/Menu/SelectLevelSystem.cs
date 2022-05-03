@@ -39,7 +39,7 @@ public class SelectLevelSystem : MonoBehaviour
         if (CurrentLevel.arr[level] == true)
         {
             CurrentLevel.CurrentLevels = level;
-            AllowSkipLevel.skipLevel = 3;
+            AllowSkipLevel.skipLevel = 2;
             CurrentLevel.timer = 0f;
             SceneManager.LoadScene(level);
         }

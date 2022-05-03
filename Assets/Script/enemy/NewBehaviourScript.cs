@@ -43,7 +43,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
         if(detect == true)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, 4f * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
 
 
