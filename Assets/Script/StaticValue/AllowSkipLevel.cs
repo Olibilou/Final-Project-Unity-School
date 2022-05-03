@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class AllowSkipLevel : MonoBehaviour
 {
-    public static int skipLevel = 3;
+    public static int skipLevel = 2;
 }

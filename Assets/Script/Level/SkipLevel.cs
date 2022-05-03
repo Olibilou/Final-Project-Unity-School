@@ -33,6 +33,7 @@ public class SkipLevel : MonoBehaviour
     public void useSkip()
     {
         AllowSkipLevel.skipLevel -= 1;
+        CurrentLevel.timer += 50;
     }
     public int GetuseSkip()
     {

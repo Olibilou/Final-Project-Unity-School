@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 80
+  controlID: 21
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 81
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 124
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,8 +275,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -319,9 +319,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 347.6679, y: 682.7165, z: -27.854118}
+    m_Target: {x: 0, y: 3.3369803, z: -10}
     speed: 2
-    m_Value: {x: 347.6679, y: 682.7165, z: -27.854118}
+    m_Value: {x: 0, y: 3.3369803, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -372,9 +372,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1050.4182
+    m_Target: 12.124355
     speed: 2
-    m_Value: 1050.4182
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -429,21 +429,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6259ffff9059ffffd659ffff505affff8269ffff9469ffff6e6bffff4e81ffff8a81ffff8e86ffff148cffff468cffff6c8cffff189dffff209effff529effff7a9effffea9effff129fffff829fffffdc9fffff54a0ffff74a3ffff34a5ffff66b8ffff2abaffff08bfffffa8bfffff78c1ffff5cc3ffffa0c5ffffbec5ffff62c6ffff88c6ffffb2c6ffff38c8ffff68c8ffff90c8ffffc0caffff5ecbffffcccdffff54d0ffffe0d1fffff6d1ffff8cd4ffffb4d4ffff10d5fffff6d5ffff98d6ffffb2e2ffff88e5ffffdce5ffffc0e7ffff3ee8ffffece8ffff68e9ffffdae9ffff50eaffff20ebfffffeecffff42faffff64fbffff785100008c510000b4510000c6510000e0510000f2510000165200004a7e0000fc93000082940000009600000ce100001ae10000
+      m_ExpandedIDs: 22f5ffff90f8ffff64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GameObject
-        m_OriginalName: GameObject
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -38044
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -678,10 +678,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86500000
-    m_LastClickedID: 20614
-    m_ExpandedIDs: 000000004e50000052500000545000005a500000b45b0000fa5f000024650000ac6e000000ca9a3b
+    scrollPos: {x: 0, y: 20}
+    m_SelectedIDs: e2500000
+    m_LastClickedID: 20706
+    m_ExpandedIDs: 00000000a8500000aa500000ac500000ae500000b0500000b2500000b4500000b650000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -709,7 +709,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e50000050500000525000005450000056500000585000005a5000005c500000
+    m_ExpandedIDs: 00000000a8500000aa500000ac500000ae500000b0500000b2500000b4500000b6500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -736,19 +736,19 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000185800003643000034430000c0430000245800000000000068440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Enemy 1
-      m_OriginalName: Enemy 1
+      m_Name: Level8
+      m_OriginalName: Level8
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 55250
+      m_UserData: 30720
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
