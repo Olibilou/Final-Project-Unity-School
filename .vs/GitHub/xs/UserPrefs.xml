@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{CAEC3BBE-3D47-485C-7771-F0AE24B05E87}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioIntegration.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioIntegration.cs" Line="150" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GitHub" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2fabbc09-c0ba-4a1b-b445-a458dd30c382" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
