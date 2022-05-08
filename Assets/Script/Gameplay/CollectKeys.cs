@@ -9,6 +9,8 @@ public class CollectKeys : MonoBehaviour
 
     private UiGame uiGame;
 
+    public AudioSource getKey;
+
     private void Awake()
     {
         uiGame = GameObject.FindObjectOfType<UiGame>();
@@ -22,6 +24,7 @@ public class CollectKeys : MonoBehaviour
             Destroy(collision.gameObject);
             keycollect++;
             uiGame.UpdateScore(keycollect);
+            getKey.Play();
         }
         if (collision.gameObject.CompareTag("Door"))
         {
