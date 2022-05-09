@@ -7,6 +7,8 @@ public class Mainmenu : MonoBehaviour
 {
     public void StartGame()
     {
+        AllowSkipLevel.skipLevel = 2;
+        CurrentLevel.timer = 0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -17,9 +19,9 @@ public class Mainmenu : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(1);
         AllowSkipLevel.skipLevel = 2;
         CurrentLevel.timer = 0f;
+        SceneManager.LoadScene(1);
     }
 
     public void returnMainMenu()
