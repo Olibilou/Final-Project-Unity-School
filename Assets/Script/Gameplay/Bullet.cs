@@ -4,8 +4,26 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    private float speed;
+    private float direction;
+    private bool hit;
     Rigidbody2D rb2d;
     public GameObject hitAnimation;
+    private BoxCollider2D boxCollider;
+
+
+    private void Awake()
+    {
+        
+    }
+    private void Update()
+    {
+       // if (hit) return;
+       // float movementSpeed - speed * Time.deltaTime * direction;
+       // Transform.Transalate(movementSpeed, 0, 0);
+    }
+
+
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -26,6 +44,19 @@ public class Bullet : MonoBehaviour
         }
 
     }
+  //  public void SetDirection(float _direction)
+  //  {
+    //    direction = _direction;
+   //     gameObject.SetActive(true);
+   //     hit = false;
+
+    //    float localScaleX = transform.localScale.x;
+    //    if (Mathf.Sign(localScaleX) != _direction)
+    //        localScaleX = -localScaleX;
+
+   //     transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
+
+   // }
     private void DestroySelf()
     {
         Destroy(gameObject);
